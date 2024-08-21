@@ -33,8 +33,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-inline: 0 !important;
 }
-
 
 .container:not(:first-child) {
     margin-top: 50px;
