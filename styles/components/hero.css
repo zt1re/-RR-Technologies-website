@@ -26,10 +26,6 @@
     max-width: 45ch;
 }
 
-.hero-btn {
-    font-weight: 600;
-}
-
 .hero-btn:hover {
     background-color: var(--clr-black2);
 }

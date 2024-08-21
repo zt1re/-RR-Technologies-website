@@ -108,6 +108,7 @@ button {
     background: none;
     color: inherit;
     cursor: pointer;
+    font-weight: 600;
 }
 
 body::-webkit-scrollbar {
