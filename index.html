@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/modern-normalize.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/components/header.css" />
+    <link rel="stylesheet" href="./styles/components/hero.css" />
+    <link rel="stylesheet" href="./styles/components/about.css" />
+    <link rel="stylesheet" href="./styles/utils.css" />
+
+    <link rel="stylesheet" href="responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header-and-hero">
+        <!-- header section -->
+        <header class="header container">
+            <svg class="header-icon" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="11.3738" y="12.1965" width="42.2548" height="42.2548" stroke="#0F172A" stroke-width="3"/>
+                <rect x="2.12132" y="32" width="42.2548" height="42.2548" transform="rotate(-45 2.12132 32)" stroke="#0F172A" stroke-width="3"/>
+                <path d="M20.5703 42.1693V25.5073H24.561C25.6855 25.5073 26.6317 25.6445 27.3997 25.9187C28.1814 26.1793 28.771 26.6318 29.1687 27.2764C29.5801 27.9209 29.7858 28.7986 29.7858 29.9094C29.7858 30.5814 29.7241 31.1847 29.6007 31.7196C29.4773 32.2544 29.2647 32.7138 28.963 33.0978C28.675 33.4681 28.2705 33.756 27.7494 33.9618L30.0738 42.1693H27.0294L25.0135 34.5377H23.6147V42.1693H20.5703ZM23.6147 32.6247H24.561C25.1507 32.6247 25.6169 32.5424 25.9598 32.3778C26.3163 32.1996 26.57 31.9253 26.7209 31.555C26.8717 31.171 26.9471 30.6842 26.9471 30.0945C26.9471 29.258 26.7894 28.634 26.474 28.2226C26.1723 27.7975 25.5895 27.5849 24.7255 27.5849H23.6147V32.6247Z" fill="#0F172A"/>
+                <path d="M34.5694 42.1693V25.5073H38.5601C39.6846 25.5073 40.6308 25.6445 41.3988 25.9187C42.1805 26.1793 42.7701 26.6318 43.1678 27.2764C43.5792 27.9209 43.785 28.7986 43.785 29.9094C43.785 30.5814 43.7232 31.1847 43.5998 31.7196C43.4764 32.2544 43.2638 32.7138 42.9621 33.0978C42.6742 33.4681 42.2696 33.756 41.7485 33.9618L44.0729 42.1693H41.0285L39.0126 34.5377H37.6138V42.1693H34.5694ZM37.6138 32.6247H38.5601C39.1498 32.6247 39.616 32.5424 39.9589 32.3778C40.3154 32.1996 40.5691 31.9253 40.72 31.555C40.8708 31.171 40.9462 30.6842 40.9462 30.0945C40.9462 29.258 40.7885 28.634 40.4731 28.2226C40.1714 27.7975 39.5886 27.5849 38.7246 27.5849H37.6138V32.6247Z" fill="#0F172A"/>
+            </svg>
+            <div class="header-links">
+                <div class="header-link">services</div>
+                <div class="header-link">portfolio</div>
+                <div class="header-link">about us</div>
+                <div class="header-link">testimonials</div>
+            </div>
+            <div class="header-btns">
+                <button class="header-btn btn">contact us</button>
+                <button class="header-menu"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></button>
+            </div>
+                
+
+        </header>
+        <!-- hero section -->
+        <section class="hero container">
+            <h1 class="hero-title">Welcome to <span>RR</span> Technologies</h1>
+            <p class="hero-description">Are you facing difficulties with your website?
+                Do you have a website but lack traffic?
+                No need to worry.</p>
+            <button class="hero-btn button">get started</button>
+            <svg class="mouse" width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_2_41)">
+                <path d="M19.5 7.3125C19.8232 7.3125 20.1332 7.4409 20.3618 7.66946C20.5903 7.89802 20.7188 8.20802 20.7188 8.53125V13.4062C20.7188 13.7295 20.5903 14.0395 20.3618 14.268C20.1332 14.4966 19.8232 14.625 19.5 14.625C19.1768 14.625 18.8668 14.4966 18.6382 14.268C18.4097 14.0395 18.2812 13.7295 18.2812 13.4062V8.53125C18.2812 8.20802 18.4097 7.89802 18.6382 7.66946C18.8668 7.4409 19.1768 7.3125 19.5 7.3125ZM29.25 26.8125C29.25 29.3984 28.2228 31.8783 26.3943 33.7068C24.5658 35.5353 22.0859 36.5625 19.5 36.5625C16.9141 36.5625 14.4342 35.5353 12.6057 33.7068C10.7772 31.8783 9.75 29.3984 9.75 26.8125V12.1875C9.75 9.60164 10.7772 7.12169 12.6057 5.29321C14.4342 3.46473 16.9141 2.4375 19.5 2.4375C22.0859 2.4375 24.5658 3.46473 26.3943 5.29321C28.2228 7.12169 29.25 9.60164 29.25 12.1875V26.8125ZM19.5 0C16.2677 0 13.1677 1.28404 10.8821 3.56964C8.59654 5.85524 7.3125 8.95517 7.3125 12.1875V26.8125C7.3125 30.0448 8.59654 33.1448 10.8821 35.4304C13.1677 37.716 16.2677 39 19.5 39C22.7323 39 25.8323 37.716 28.1179 35.4304C30.4035 33.1448 31.6875 30.0448 31.6875 26.8125V12.1875C31.6875 8.95517 30.4035 5.85524 28.1179 3.56964C25.8323 1.28404 22.7323 0 19.5 0Z" fill="#0F172A"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_2_41">
+                <rect width="39" height="39" fill="white"/>
+                </clipPath>
+                </defs>
+            </svg>
+        </section>
+    </div>
+    <!-- about section -->
+    <section class="about container">
+        <div class="about-item1">
+            <div class="about-item1_subtitle">Thank you for your interest in us!</div>
+            <div class="about-item1_title">Founded over 7 years ago, RR Technologies is now the main <span>web design</span> and <span>web development</span> agency in Bangladesh.</div>
+            <p class="about-item1_description">Technology and business fused together can bear fruitful results talking in terms of business flourishment and success. And this is what exactly we aim to deliver to our esteemed clients, offering our mix of reliability, capability, and longevity to get your website blossoming. We at RR Technologies excel in the area of digital marketing, web software, web development, web designing, and other web solutions that you may consider availing for your website growth.</p>
+        </div>
+        <div class="about-item2">
+            <div class="about-item2_text">
+                <p class="about-item2_description">Are you facing difficulties with your website? Do you have a website but lack traffic? No need to worry. We at RR Technologies use our technological expertise amalgamated with our experience to scoop out the right potion of success for your firm. We are highly passionate about our work and leave no stones unturned to delight our customers with high-quality work and efficient project management that comes as a surprise bearing bounteous outcomes.
+                    Owing to the years of expertise in web development and web designing, our in-house professionals have been highly successful in catering projects. May it be your small size or large-scale business; we excel in providing you with the best interactive surfaces.
+                </p>
+                <div class="blur-affact"></div>
+                <button class="about-item2_btn button">show more..</button>
+            </div>
+            <div class="about-item2_img"><img src="./public/about-item2_img.jpg" alt="computer">
+            </div>
+        </div>
+        <div class="about-item3">
+            <div>
+                <img src="./public/about-item3 icon1.jpg" alt="">
+                <h3>projects</h3>
+                <h5>65+</h5>
+            </div>
+            <div>
+                <img src="./public/about-item3 icon2.jpg" alt="">
+                <h3>clients</h3>
+                <h5>30+</h5>
+            </div>
+            <div>
+                <img src="./public/about-item3 icon3.jpg" alt="">
+                <h3>experience</h3>
+                <h5>7years+</h5>
+            </div>
+            <div>
+                <img src="./public/about-item3 icon4.jpg" alt="">
+                <h3>company</h3>
+                <h5>15+</h5>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+                     
+   

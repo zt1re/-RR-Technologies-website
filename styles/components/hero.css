@@ -1,0 +1,99 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.hero > * {
+    text-align: center;
+}
+
+.hero-title {
+    font-family: "Nunito", sans-serif;
+    line-height: 1.1;
+    font-weight: 900;
+    margin-top: 25px;
+    max-width: 20ch;
+}
+
+.hero-title > span {
+    color: var(--clr-blue);
+}
+
+.hero-description, .hero-btn {
+    font-size: 10px;
+    max-width: 45ch;
+}
+
+.hero-btn {
+    font-weight: 600;
+}
+
+.hero-btn:hover {
+    background-color: var(--clr-black2);
+}
+
+.mouse {
+    width: 15px;
+    color: var(--clr-black);
+    margin-bottom: 10px;
+}
+
+@media (min-width: 475px) {
+    .hero {
+        gap: 15px;
+    }
+
+    .hero-title {
+        font-size: var(--size-3xl);
+        margin-top: 30px;
+    }
+
+    .mouse {
+        width: 20px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero {
+        gap: 20px;
+    }
+
+    .hero-title {
+        font-size: var(--size-4xl);
+        margin-top: 60px;
+    }
+
+    .hero-description, .hero-btn {
+        font-size: var(--size-sm);
+    }
+
+    .mouse {
+        width: 25px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .hero {
+        gap: 20px;
+    }
+
+    .hero-title {
+        font-size: var(--size-5xl);
+        margin-top: 80px;
+    }
+    
+    .hero-description, .hero-btn {
+        font-size: var(--size-base);
+    }
+
+    .mouse {
+        width: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+
