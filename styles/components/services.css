@@ -1,22 +1,10 @@
 .services {
     background-color: #EBF0FF;
-    padding: 50px 20px;
+    padding-inline: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-}
-
-.services-item1_subtitle {
-    color: var(--clr-blue);
-    font-size: var(--size-xs);
-}
-
-.services-item1_title {
-    font-size: var(--size-sm);
-    font-weight: 800;
-    margin-top: 10px;
-    max-width: 50ch;
 }
 
 .services-item2 {
@@ -96,40 +84,25 @@
 @media (min-width: 768px) {
     .services {
         padding: 70px 20px;
-    }
-
-    .services {
         flex-direction: row;
         justify-content: center;
         gap: 30px;
-
     }
 
-    .services-item1_subtitle {
-        font-size: var(--size-base);
+    .services-item1 {
+        align-items: flex-start;
+        text-align: left;
     }
 
     .services-item1_title {
-        font-size: var(--size-2xl);
         max-width: 30ch;
     }
 }
+
 @media (min-width: 1280px) {
     .services {
         padding: 80px 20px;
-    }
-
-    .services {
         gap: 40px;
-    }
-
-    .services-item1_subtitle {
-        font-size: var(--size-lg);
-    }
-
-    .services-item1_title {
-        font-size: var(--size-4xl);
-        max-width: 20ch;
     }
 
     .services-item2_box {

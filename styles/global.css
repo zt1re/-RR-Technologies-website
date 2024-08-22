@@ -26,37 +26,115 @@
     --size-10xl: 10rem;
 }
 
-.header-and-hero {
-    background-image: url('../public/Frame 81.jpg');
+.header-and-hero, .featuers {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-inline: 0 !important;
 }
 
-.container:not(:first-child) {
-    margin-top: 50px;
-    padding-inline: 20px;
+.header-and-hero {
+    background-image: url('../public/Frame 81.jpg');
+}
+
+.featuers {
+    background-image: url(../public/Frame\ 83.jpg);
+}
+
+.container:not(.header) {
+    padding: 50px 20px;
 }
 
 @media (min-width: 475px) {
-    .container:not(:first-child) {
-        margin-top: 60px;
+    .container:not(.header) {
+        padding-top: 60px;
     }
 }
 @media (min-width: 768px) {
-    .container:not(:first-child) {
-        margin-top: 70px;
+    .container:not(.header) {
+        padding-top: 70px;
     }
 }
 @media (min-width: 1280px) {
-    .container:not(:first-child) {
-        margin-top: 80px;
+    .container:not(.header) {
+        padding-top: 80px;
     }
 } 
 
+.item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 7px;
+}
+
+.subtitle {
+    color: var(--clr-blue);
+    font-size: var(--size-xs);
+    font-weight: 700;
+    max-width: 20ch;
+}
+
+.title {
+    font-size: var(--size-sm);
+    font-weight: 850;
+}
+
+p {
+    font-size: 10px;
+    color: rgb(72, 70, 70);
+    line-height: 1.5;
+}
+
+@media (min-width: 475px) {
+    .subtitle {
+        font-size: var(--size-sm);
+    }
+
+    .title {
+        font-size: var(--size-lg);
+        max-width: 50ch;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .subtitle {
+        font-size: var(--size-base);
+    }
+
+    .title {
+        font-size: var(--size-2xl);
+        max-width: 42ch;
+    }
+
+    p {
+        font-size: 14px;
+        max-width: 800px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .subtitle {
+        font-size: var(--size-lg);
+    }
+
+    .title {
+        font-size: var(--size-3xl);
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
 span {
     color: var(--clr-tomato);
+    display: inline;
 }
 
 .btn {
@@ -65,10 +143,18 @@ span {
     border-radius: 30px;
 }
 
+.btn:hover {
+    background-color: var(--clr-blue2);
+}
+
 .button {
     background-color: var(--clr-black);
     color: var(--clr-white100);
     border-radius: 8px;
+}
+
+.button:hover {
+    background-color: var(--clr-black2);
 }
 
 .btn, .button {

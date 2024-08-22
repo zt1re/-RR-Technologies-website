@@ -10,24 +10,15 @@
 }
 
 .hero-title {
-    font-family: "Nunito", sans-serif;
     line-height: 1.1;
     font-weight: 900;
     margin-top: 25px;
     max-width: 20ch;
 }
 
-.hero-title > span {
-    color: var(--clr-blue);
-}
-
 .hero-description, .hero-btn {
     font-size: 10px;
     max-width: 45ch;
-}
-
-.hero-btn:hover {
-    background-color: var(--clr-black2);
 }
 
 .mouse {

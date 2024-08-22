@@ -14,32 +14,6 @@
     gap: 10px;
 }
 
-.about-item1_subtitle, .about-item1_title {
-    font-family: "Nunito", sans-serif;
-}
-
-.about-item1_subtitle {
-    color: var(--clr-blue);
-    font-size: var(--size-xs);
-    font-weight: 700;
-    max-width: 20ch;
-}
-
-.about-item1_title {
-    font-size: var(--size-sm);
-    font-weight: 850;
-}
-
-.about-item1_title > span {
-    color: var(--clr-tomato);
-}
-
-.about p {
-    font-size: 10px;
-    color: rgb(72, 70, 70);
-    line-height: 1.5;
-}
-
 .about-item2 {
     display: flex;
     flex-direction: column;
@@ -95,19 +69,6 @@
         gap: 40px;
     }
 
-    .about-item1_subtitle {
-        font-size: var(--size-sm);
-    }
-
-    .about-item1_title {
-        font-size: var(--size-lg);
-        max-width: 30ch;
-    }
-
-    .about p {
-        font-size: 12px;
-    }
-
     .about-item2_description {
         max-width: 450px;
     }
@@ -129,20 +90,6 @@
 
     .about-item1 {
         gap: 15px;
-    }
-
-    .about-item1_subtitle {
-        font-size: var(--size-base);
-    }
-
-    .about-item1_title {
-        font-size: var(--size-2xl);
-        max-width: 42ch;
-    }
-
-    .about-item1_description {
-        font-size: 14px;
-        max-width: 800px;
     }
 
     .about-item2 {
@@ -180,18 +127,6 @@
         gap: 60px;
     }
 
-    .about-item1_subtitle {
-        font-size: var(--size-lg);
-    }
-
-    .about-item1_title {
-        font-size: var(--size-3xl);
-    }
-
-    .about p {
-        font-size: 16px;
-    }
-    
     .about-item3 {
         margin-inline: auto;
         width: 950px;

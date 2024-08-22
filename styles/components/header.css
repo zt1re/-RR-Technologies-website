@@ -43,10 +43,6 @@
         font-weight: 600;
     }
 
-    .header-btn:hover {
-        background-color: var(--clr-blue2);
-    }
-
     .header-menu {
         padding-top: 7px;
         width: 20px;
