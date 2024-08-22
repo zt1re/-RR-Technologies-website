@@ -1,0 +1,144 @@
+.services {
+    background-color: #EBF0FF;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.services-item1_subtitle {
+    color: var(--clr-blue);
+    font-size: var(--size-xs);
+}
+
+.services-item1_title {
+    font-size: var(--size-sm);
+    font-weight: 800;
+    margin-top: 10px;
+    max-width: 50ch;
+}
+
+.services-item2 {
+    display: grid;
+    /* grid-template-areas: 
+    'box1 box2'
+    'box3 box4'; */
+    justify-content: center;
+    gap: 15px;
+}
+
+.services-item2_box {
+    /* max-width: 200px; */
+    background-color: white;
+    padding: 10px;
+    border-top: var(--clr-blue) solid 7px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.services-item2_box > img {
+    width: 27px;
+}
+
+.services-item2_box-title {
+    font-size: var(--size-xs);
+    height: 30px;
+}
+
+.box1 {
+    background-color: #0F172A;
+}
+
+.box1 > img {
+    fill: #0F172A;
+}
+
+.box1 > h5 {
+    color: white;
+}
+
+.services-item2_box-btn {
+    display: flex;
+    justify-content: end;
+}
+
+.services-item2_box-btn > svg {
+    box-sizing: content-box;
+    border-radius: 2px;
+    background-color: var(--clr-blue);
+    padding: 5px;
+}  
+
+.services-item2_box-btn > svg:hover {
+    background-color: var(--clr-blue2);
+}
+
+@media (min-width: 475px) {
+    .services {
+        padding: 60px 20px;
+    }
+
+    .services-item2 {
+        grid-template-areas: 
+        'box1 box2'
+        'box3 box4';
+    }
+
+    .services-item2_box {
+        max-width: 200px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .services {
+        padding: 70px 20px;
+    }
+
+    .services {
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+
+    }
+
+    .services-item1_subtitle {
+        font-size: var(--size-base);
+    }
+
+    .services-item1_title {
+        font-size: var(--size-2xl);
+        max-width: 30ch;
+    }
+}
+@media (min-width: 1280px) {
+    .services {
+        padding: 80px 20px;
+    }
+
+    .services {
+        gap: 40px;
+    }
+
+    .services-item1_subtitle {
+        font-size: var(--size-lg);
+    }
+
+    .services-item1_title {
+        font-size: var(--size-4xl);
+        max-width: 20ch;
+    }
+
+    .services-item2_box {
+        gap: 20px;
+        max-width: 250px;
+    }
+
+    .services-item2_box-title {
+        font-size: 18px;
+        height: 50px;
+    }
+}

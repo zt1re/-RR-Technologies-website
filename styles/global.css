@@ -1,6 +1,4 @@
 :root {
-    /* fonts */
-    --primary-font: font-family: "Nunito", sans-serif;
 
     /* colors */
     --clr-white100:#FFFFFF;
@@ -57,6 +55,10 @@
     }
 } 
 
+span {
+    color: var(--clr-tomato);
+}
+
 .btn {
     background-color: var(--clr-blue);
     color: var(--clr-white100);
@@ -84,7 +86,7 @@ html {
 }
 
 body {
-    font-family: var(--primary-font);
+    font-family: "Nunito", sans-serif;
 }
 
 img,
