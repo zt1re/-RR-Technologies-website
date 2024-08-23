@@ -1,6 +1,6 @@
 .services {
     background-color: #EBF0FF;
-    padding-inline: 20px;
+    padding: 50px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
