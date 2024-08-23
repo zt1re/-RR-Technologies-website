@@ -26,7 +26,7 @@
     --size-10xl: 10rem;
 }
 
-.header-and-hero, .featuers {
+.header-and-hero, .featuers, .testimonial {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,6 +38,10 @@
 
 .featuers {
     background-image: url(../public/Frame\ 83.jpg);
+}
+
+.testimonial {
+    background-image: url(../public/Frame\ 84.jpg);
 }
 
 .container:not(.header) {

@@ -1,0 +1,57 @@
+.registeration {
+    background-color: #EBF0FF;
+}
+
+.registeration > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.registeration > img {
+    max-width: 400px;
+}
+
+.register-interest {
+    max-width: 440px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.register-interest_title {
+    color: var(--clr-blue);
+}
+
+.registeration-btn {
+    font-size: var(--size-xxs);
+    font-weight: 600;
+}
+
+.register-interest_description {
+    font-size: var(--size-xxs);
+    line-height: 1.2;
+}
+
+.seperator {
+    width: 60%;
+    border-top: 1px solid #47556976;
+    margin-inline: auto;
+}
+
+@media (min-width: 900px) {
+    .registeration > .container {
+        flex-direction: row;
+    }
+}
+/* @media (min-width: 640px) {} */
+/* @media (min-width: 768px) {} */
+/* @media (min-width: 1024px) {} */
+/* @media (min-width: 1280px) {} */
+/* @media (min-width: 1536px) {} */
