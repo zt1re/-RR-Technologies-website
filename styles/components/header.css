@@ -62,6 +62,10 @@
         font-weight: 700;
     }
 
+    .header-link:hover {
+        color: var(--clr-blue);
+    }
+
     .header-btn {
         font-size: var(--size-xs);
     }
