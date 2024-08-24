@@ -18,7 +18,7 @@
     max-width: 450px;
     background-color: rgba(255, 255, 255, 0.408);
     border: 3px solid white;
-    border-radius: 3px;
+    border-radius: 6px;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -35,17 +35,14 @@
     border-radius: 100000px;
 }
 
-/* @media (min-width: 475px) {} */
 @media (min-width: 640px) { 
     .boxes-container {
         flex-direction: row;
     }
 }
-/* @media (min-width: 768px) {} */
+
 @media (min-width: 1024px) {
     .boxes-container {
         margin-bottom: 150px;
     }
 }
-/* @media (min-width: 1280px) {} */
-/* @media (min-width: 1536px) {} */

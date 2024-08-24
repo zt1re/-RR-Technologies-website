@@ -74,7 +74,7 @@
     }
 
     .about-item3 > * {
-        font-size: var(--size-sm);
+        font-size: var(--size-xs);
     }
 
     .about-item3  img {
@@ -100,6 +100,10 @@
     .about-item2_description {
         font-size: 14px;
         text-align: left;
+    }
+
+    .about-item2_btn {
+        font-size: var(--size-sm);
     }
 
     .blur-affact {

@@ -33,7 +33,7 @@
 }
 
 .header-and-hero {
-    background-image: url('../public/Frame 81.jpg');
+    background-image: url('../public/Frame\ 81.jpg');
 }
 
 .featuers {
@@ -140,6 +140,12 @@ span {
     color: var(--clr-tomato);
     display: inline;
 }
+
+.featuers-item2_box, .boxes-container > div, .register-interest {
+    box-shadow: 0 0 20px 0 #577ae253;
+
+}
+
 
 .btn {
     background-color: var(--clr-blue);

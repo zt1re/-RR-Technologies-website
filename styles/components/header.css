@@ -21,6 +21,7 @@
 
 .header-btn {
     font-size: var(--size-xxs);
+    font-weight: 600;
 }
 
 .header-menu {
@@ -36,11 +37,6 @@
 
     .header-btns {
         gap: 15px;
-    }
-
-    .header-btn {
-        font-size: var(--size-xxs);
-        font-weight: 600;
     }
 
     .header-menu {
@@ -87,5 +83,9 @@
     .header-link {
         font-weight: 700;
         font-size: var(--size-xl);
+    }
+
+    .header-btn {
+        font-size: var(--size-sm);
     }
 }
