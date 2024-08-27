@@ -75,9 +75,10 @@ input {
     margin-inline: auto;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
     .registeration > .container {
         flex-direction: row;
+        gap: 50px;
     }
 
     .register-interest_description, .inputs, .registeration-btn {
