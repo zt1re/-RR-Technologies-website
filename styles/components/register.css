@@ -16,7 +16,7 @@
 
 .register-interest {
     min-width: 290px;
-    max-width: 440px;
+    max-width: 550px;
     background-color: white;
     border-radius: 10px;
     padding: 20px;
@@ -75,17 +75,33 @@ input {
     margin-inline: auto;
 }
 
-@media (min-width: 1024px) {
-    .registeration > .container {
-        flex-direction: row;
-        gap: 50px;
-    }
-
+@media (min-width: 768px) {
     .register-interest_description, .inputs, .registeration-btn {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .inputs {
-        padding-right: 30px;
+        padding-right: 27px;
     }
 }
+
+@media (min-width: 1024px) {
+    .registeration > .container {
+        flex-direction: row;
+        gap: 70px;
+    }
+
+    .register-interest {
+        gap: 2em;
+    }
+
+    .register-interest_description, .inputs, .registeration-btn {
+        font-size: 15px;
+    }
+
+    .inputs {
+        padding-right: 35px;
+    }
+}
+
+
